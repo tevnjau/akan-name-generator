@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+    </div>
+    <div class="starting-images">
+        <img src="https://images.pexels.com/photos/6393200/pexels-photo-6393200.jpeg" alt="Babies">
+        <img src="https://images.pexels.com/photos/3662633/pexels-photo-3662633.jpeg" alt="Newborn">
+        <img src="https://images.pexels.com/photos/3746321/pexels-photo-3746321.jpeg" alt="Infant">
+        <div class="motiv">
+        <p>"A child born on a particular day carries the characteristics of that day"</p>
+        </div>
+    </div>
+    <div class="origin">
+        <h2>Origin of Akan Names</h2>
+        <p>Akan names are derived from the day of the week on which a person is born. Each day has specific names for males and females, reflecting the cultural significance of the day.</p>
+        <p>Long ago, in the lush forests and golden savannahs of what is now Ghana and Côte d’Ivoire, there lived the Akan people, a community deeply connected to the rhythms of the earth, the stars, and the cycles of life. For them, life was not just a series of days; each day was a vessel of spiritual energy, and each person who entered the world carried a fragment of that energy.</p>
+        <p>As the story goes, the Akan people believed that the day of the week on which a child was born held profound significance. They observed that each day was governed by specific deities and spirits, each imparting unique qualities and destinies to those born under their watchful eyes. Thus, they began the tradition of naming their children according to the day of their birth, a practice that would weave itself into the very fabric of their culture.</p>
+        <ul>
+            <li><strong>Sunday:</strong> Kwadwo/Kwadwaa</li>
+            <li><strong>Monday:</strong> Kwabena/Kwabenaa</li>
+            <li><strong>Tuesday:</strong> Kwaku/Kwakua</li>
+            <li><strong>Wednesday:</strong> Yaw/Yawaa</li>
+            <li><strong>Thursday:</strong> Kofi/Kofia</li>
+            <li><strong>Friday:</strong> Kwame/Kwamea</li>
+            <li><strong>Saturday:</strong> Akwasi/Akwasia</li>
+        </ul>
+        <p>Over generations, this naming tradition became more than just a way to identify individuals; it became a celebration of identity, heritage, and the interconnectedness of life. The Akan names served as a constant reminder of one's roots and the values upheld by their ancestors.</p>
+        <p>Today, the Akan naming tradition continues to thrive, not only in Ghana and Côte d’Ivoire but also among the Akan diaspora worldwide. It stands as a testament to the enduring power of culture and the deep bonds that connect us to our past, our community, and the world around us.</p>
+    </div>
+    <h1>Akan Name Generator</h1>
+    <div class="instructions">
+        <p>Enter your date of birth and select your gender to find out your Akan name!</p>
+    </div>
+    <div class="box">
+   <form id="akanForm" class="akan-form">
+   <div class="date-container">
+    <input type="number" id="day" name="day" placeholder="DD" min="1" max="31" required>
+    <input type="number" id="month" name="month" placeholder="MM" min="1" max="12" required>
+    <input type="number" id="year" name="year" placeholder="YYYY" min="1900" max="2027" required>
+   </div>
+
+  <div class="gender-container">
+    <label>
+      <input type="radio" name="gender" value="male" required> Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female" required> Female
+    </label>
+  </div>
+  </form>
+    </div>
+
+  <button type="submit">Get Akan Name</button>
+</form>
+
+<p id="result" class="result"></p>
+
+<p id="result"></p>
+
+</body>
+</html>

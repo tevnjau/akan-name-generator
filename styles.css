@@ -1,0 +1,37 @@
+.starting-images  img{
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+}
+.starting-images{
+    width: 100%;
+    margin: 0px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.motiv {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  font-size: 20px;
+  text-align: center;
+}
+.boxed {
+    border: 2px solid #4CAF50; 
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
