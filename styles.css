@@ -35,3 +35,9 @@
     justify-content: center;
     align-items: center;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8c7c7;
+    margin: 0;
+    padding: 0;
+}
