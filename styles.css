@@ -25,13 +25,13 @@
   font-size: 20px;
   text-align: center;
 }
-.boxed {
-    border: 2px solid #4CAF50; 
-    padding: 10px; 
+.box {
+    border: 2px solid #4cacaf; 
+    padding: 50px; 
     border-radius: 10px; 
-    background-color: #f9f9f9; 
+    background-color: #a04545; 
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
