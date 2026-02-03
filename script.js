@@ -23,7 +23,7 @@ function calculateDayOfWeek(day, month, year) {
       DD
     ) % 7;
 
-  return d; // 0 = Sunday ... 6 = Saturday
+  return d; 
 }
 function adjustDate(day, month, year) {
   if (month < 3) {
@@ -38,7 +38,6 @@ function isValidDate(day, month, year) {
 
   const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-  // Leap year check
   const isLeap =
     (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 
