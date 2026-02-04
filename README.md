@@ -11,6 +11,11 @@ GitHub: [https://github.com/tevnjau](https://github.com/tevnjau)
 
 ---
 
+## live site
+https://tevnjau.github.io/akan-name-generator/
+
+---
+
 ## Setup Instructions
 1. Clone the repository:
    ```bash
